@@ -4,7 +4,7 @@ A microservices-based trade/order processing system built with Spring Boot, Kafk
 
 ## Architecture
 
-See `docs/architecture.md`.
+As of right now, the plan is to build the project within Spring Boot, have Kafka be our messenger for producer/consumer services, persist data to Cassandra, and deploy with Kubernetes locally, then AWS EKS to the cloud.
 
 ## Services
 
